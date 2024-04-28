@@ -1,7 +1,6 @@
 import React from "react";
-import user from "../data/user";
 
-function Home() {
+function Home(user) {
   return (
     <div id="home">
       <h1 style={{ color: user.color }}>
